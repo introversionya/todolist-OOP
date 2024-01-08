@@ -49,7 +49,7 @@ export class NoteList {
     this._notes.push(newNote);
     this.checkEmpty();
     this.save();
-    return id;
+    return newNote.id;
   }
 
   remove(value) {
